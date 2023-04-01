@@ -302,9 +302,9 @@ hr{
     flex-basis: 45%;
     padding: 10px;
     margin-bottom: 20px;
-}
-.footer-right{
-    /* text-align: right; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footer-row h1{
     margin: 10px 0;
